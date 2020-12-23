@@ -110,8 +110,8 @@ const Message =(props)=>{
 const Notification =()=>{
     return(
         <View style={styles.container}>
-            <StatusBar barStyle={'light-content'} backgroundColor={"blue"}/>
-            <Header centerComponent={title} leftComponent={{}} rightComponent={{}} backgroundColor={'blue'} />
+            <StatusBar barStyle={'light-content'} backgroundColor={"transparent"} translucent/>
+            <Header centerComponent={title} leftComponent={{}} rightComponent={{}} backgroundColor={'#128800'} />
             <ScrollView style={{flex: 1}}>
                 <SafeAreaView style={{flex: 1,alignItems:'center'}}>
                     <View>

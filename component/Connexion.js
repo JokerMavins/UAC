@@ -46,7 +46,7 @@ export default Connexion;
 const styles = StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor:'green'
+        backgroundColor:'#128800'
     },
     containerImage: {
         marginTop: 100,
